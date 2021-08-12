@@ -1,24 +1,18 @@
-# README
+# Sample Vite, React and Rails app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This example app has a Vite, React and Rails setup for people who are looking to create Rails apps with a similar set up.
 
-Things you may want to cover:
+## Developing
 
-* Ruby version
+To run this app, run the following commands:
 
-* System dependencies
+```
+bundle install
+bundle exec vite install
+rails db:create
+rails db:migrate
 
-* Configuration
+rails s #starts a Rails server
+npm run dev # starts a Vite dev server
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
